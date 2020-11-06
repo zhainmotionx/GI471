@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01363179c63d4c0a932bd07e686521b, type: 3}
+  m_Name: Input Mapping
+  m_EditorClassIdentifier: 
+  inputKeyList:
+  - keyName: Jump
+    keyCodeList: 200000004a010000
+  - keyName: Shoot
+    keyCodeList: 4301000044010000
+  - keyName: Reload
+    keyCodeList: 72000000
+  inputAxisList:
+  - axisName: MoveHorizontal
+    axisList:
+    - Horizontal
+  - axisName: MoveVertical
+    axisList:
+    - Vertical
